@@ -1,0 +1,161 @@
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+  }
+  h1{
+    color: #0073e6;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  ul {
+    list-style: disc;
+    padding: 0;
+    
+  }
+  
+  li {
+    margin-bottom: 5px;
+    list-style: none;
+  }
+  
+  a {
+    color: #007bff;
+  }
+  
+  footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+  #contacto {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contacto h2 {
+    text-align: center;
+    color: #0073e6;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form .form-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #0073e6;
+    color: #fff;
+}
+
+.contact-form button[type="reset"] {
+    background-color: #ccc;
+    color: #333;
+}
+
+.contact-form button:hover {
+    opacity: 0.8;
+}
+
+.buttons a{
+  text-decoration: none;
+} 
+  
+  /* Media queries para diseño responsivo */
+  
+  @media (max-width: 768px) {
+    nav ul {
+      text-align: center;
+    }
+  
+    nav li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    section {
+      padding: 10px;
+    }
+  }
+
+
+  
+  
